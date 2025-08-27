@@ -1,1 +1,26 @@
+# Terraform
+*.tfstate
+*.tfstate.*
 .terraform/
+# .terraform.lock.hcl  # 建議保留在版控中
+
+# 變數
+# *.tfvars
+!example.tfvars
+
+# 金鑰檔案
+*.pem
+*.key
+
+# 日誌檔案
+*.log
+
+# 編輯器檔案
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 作業系統檔案
+.DS_Store
+Thumbs.db
